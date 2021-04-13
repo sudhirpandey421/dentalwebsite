@@ -1,0 +1,71 @@
+.maininformationdiv{
+    height:100%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "top-left top-right" 
+                        "bottom-left bottom-right";
+    
+    margin:auto;
+    margin-bottom: 1rem;
+    background-color: black;
+    padding: 2rem 2rem;
+}
+
+.lefttop{
+    grid-area: top-left;
+    height:50vh;
+    max-width: inherit;
+    line-height: 0.05;
+    color: black;
+    display: grid;
+    place-items: center;
+}
+
+
+/* .lefttop ul li{
+    list-style: none;
+} */
+
+.righttop{
+    grid-area: top-right;
+    height:50vh;
+    max-width: inherit;
+    line-height: 0.05;
+    color: black;
+    display: grid;
+    place-items: center;
+}
+
+/* .righttop ul li{
+    list-style: none;
+} */
+.leftbottom{
+    grid-area: bottom-left;
+    height:50vh;
+    max-width: inherit;
+    line-height: 0.05;
+    color: black;
+    display: grid;
+    place-items: center;
+
+}
+
+/* .leftbottom ul li{
+    list-style: none;
+} */
+
+.rightbottom{
+    grid-area: bottom-right;
+    height:50vh;
+    max-width: inherit;
+    line-height: 0.05;
+    color: black;
+    display: grid;
+    place-items: center;
+    }
+
+/* .rightbottom ul li{
+    list-style: none;
+} */

@@ -1,0 +1,35 @@
+.navigation{
+    width: 100%;
+    height:5%;
+    background-color: #E0CBA8;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    color:black;
+    text-decoration: none;
+    padding:0.5rem 2rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    
+    /* border-right: 3px solid white;
+    border-left: 3px solid white; */
+    
+}
+
+.navigation a:nth-last-child(){
+    border-right:none;
+}
+
+.navigation a:hover{
+    color:  red;
+    background-color: white;
+   
+}

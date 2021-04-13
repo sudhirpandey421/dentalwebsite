@@ -1,0 +1,35 @@
+.mainlocationdiv{
+    height:60vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'left-col right-col';
+    margin:auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin-bottom: 1rem;
+   
+}
+
+.mapdiv{
+    grid-area: left-col;
+    display: grid;
+    place-content: center;
+    border: 2px solid black;
+    margin: 0%;
+}
+
+.locationdiv{
+    grid-area: right-col;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    margin: 0%;
+    background: #E0CBA8;
+
+}
+
+*
+{
+    box-sizing: border-box;
+}

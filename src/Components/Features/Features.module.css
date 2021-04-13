@@ -1,0 +1,40 @@
+.featuremain{
+    height: 50vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'left-col right-col';
+    margin:auto;
+    grid-gap:2rem;
+    
+    
+}
+
+.featureleft{
+    grid-area: left-col;
+    height: inherit;
+    MIN-width: 50%;
+    text-align: left;
+    /* background: #d4145a; background: -moz-linear-gradient(45deg,  #d4145a 0%,#fbb03b 100%); background: -webkit-linear-gradient(45deg,  #d4145a 0%,#fbb03b 100%); background: linear-gradient(45deg,  #d4145a 0%,#fbb03b 100%); */
+
+}
+
+.featureleft h2{
+    text-align: center;
+} 
+
+.featureright{
+    grid-area: right-col;
+    display: grid;
+    place-content: center;
+    position: relative;
+    height:50vh;
+   MIN-width: 50%;
+}
+
+.featureright img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

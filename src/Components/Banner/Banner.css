@@ -1,0 +1,41 @@
+.slider{
+    width: 100%;
+    height:100vh;
+    background-color: gray;
+    display: flex;
+    overflow: hidden;
+    margin:auto;
+}
+
+.slide{
+    min-width: 100vw;
+    height: 100vh;
+    position: relative;
+    animation : 10s slideanimate infinite;
+}
+
+.slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@keyframes slideanimate 
+{
+  0%{
+    left : 0%;
+  }
+  33% {
+    left : 0%;
+  }
+  66%{
+    left : -100%;
+  }
+  99% {
+    left : -200%;
+  }
+  100% {
+    left : -200%;
+  }
+}
+

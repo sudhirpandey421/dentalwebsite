@@ -1,0 +1,36 @@
+.mainimagecard{
+    height: 80vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'left-col right-col-up right-col-down';
+    /* margin:auto; */
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    }
+
+
+    .imagecardleft{
+        grid-area: left-col;
+        display: grid;
+        place-content: center;
+        position: relative;
+        height:50vh;
+        min-width: 50%;
+        margin-left: 10rem;
+        /* margin: auto; */
+    }
+   
+    .rightcardup{
+        display: grid;
+        grid-area:right-col-up;
+        place-content: center;
+
+    }
+
+    .rightcardbottom{
+        display: grid;
+        grid-area:right-col-down;
+        place-content: center;
+
+    }

@@ -1,0 +1,14 @@
+
+.maininformationcarddiv
+{
+height:calc(50vh - 20px);
+width: 30rem;
+color: black;
+display: grid;
+place-content: center;
+background-color: #E0CBA8;
+}
+
+maininformationcarddiv h1 {
+    padding: 1rem;
+}

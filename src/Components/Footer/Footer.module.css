@@ -1,0 +1,46 @@
+.footermaindiv{
+    height: 50vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-col mid-col right-col ";
+    grid-gap:1rem;
+    background-color: black;
+}
+
+.footerleft{
+    height: 50vh;
+    display: grid;
+    grid-area: left-col;
+    place-content: start;
+    color: white;
+    padding: 0% 5rem;
+    margin-top : 25px;
+
+}
+
+.footermid{
+    height: 50vh;
+    display: grid;
+    grid-area: mid-col;
+    place-content: start;
+    color: white;
+    padding: 0% 5rem;
+    line-height: 1rem;
+    margin-top : 25px;
+}
+
+
+.footermid p{
+    text-align: left;
+}
+
+.footerright{
+    height: 50vh;
+    display: grid;
+    grid-area: right-col;
+    place-content: start;
+    color: white;
+    padding: 0% 5rem;
+    margin-top : 25px;
+}
